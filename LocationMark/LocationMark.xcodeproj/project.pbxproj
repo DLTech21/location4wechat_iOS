@@ -40,6 +40,8 @@
 		46DE6E331C7FF59E00B10310 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DE6E311C7FF59E00B10310 /* UIView+SDAutoLayout.m */; };
 		46DE6E361C7FF69D00B10310 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DE6E351C7FF69D00B10310 /* UIView+Utils.m */; };
 		46DE6E391C7FF76C00B10310 /* LocationSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DE6E381C7FF76C00B10310 /* LocationSearchDisplayController.m */; };
+		46EA359E1C8972CC005F8DE2 /* LCActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46EA359B1C8972CC005F8DE2 /* LCActionSheet.bundle */; };
+		46EA359F1C8972CC005F8DE2 /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EA359D1C8972CC005F8DE2 /* LCActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +89,9 @@
 		46DE6E351C7FF69D00B10310 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
 		46DE6E371C7FF76C00B10310 /* LocationSearchDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationSearchDisplayController.h; sourceTree = "<group>"; };
 		46DE6E381C7FF76C00B10310 /* LocationSearchDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationSearchDisplayController.m; sourceTree = "<group>"; };
+		46EA359B1C8972CC005F8DE2 /* LCActionSheet.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LCActionSheet.bundle; sourceTree = "<group>"; };
+		46EA359C1C8972CC005F8DE2 /* LCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheet.h; sourceTree = "<group>"; };
+		46EA359D1C8972CC005F8DE2 /* LCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,7 @@
 		46DE6DD81C7FF3AB00B10310 = {
 			isa = PBXGroup;
 			children = (
+				46EA359A1C8972CC005F8DE2 /* LCActionSheet */,
 				46DE6E2D1C7FF59E00B10310 /* SDAutoLayout */,
 				46DE6E1C1C7FF4BB00B10310 /* libstdc++.6.0.9.tbd */,
 				46DE6E1A1C7FF4B200B10310 /* CoreTelephony.framework */,
@@ -206,6 +212,16 @@
 			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
+		46EA359A1C8972CC005F8DE2 /* LCActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				46EA359B1C8972CC005F8DE2 /* LCActionSheet.bundle */,
+				46EA359C1C8972CC005F8DE2 /* LCActionSheet.h */,
+				46EA359D1C8972CC005F8DE2 /* LCActionSheet.m */,
+			);
+			path = LCActionSheet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -265,6 +281,7 @@
 			files = (
 				46DE6E251C7FF52B00B10310 /* btn_nav@2x.png in Resources */,
 				46DE6DF41C7FF3AB00B10310 /* LaunchScreen.storyboard in Resources */,
+				46EA359E1C8972CC005F8DE2 /* LCActionSheet.bundle in Resources */,
 				46DE6E0B1C7FF41600B10310 /* mapapi.bundle in Resources */,
 				46DE6DF11C7FF3AB00B10310 /* Assets.xcassets in Resources */,
 				46DE6DEF1C7FF3AB00B10310 /* Main.storyboard in Resources */,
@@ -281,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46DE6E321C7FF59E00B10310 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				46EA359F1C8972CC005F8DE2 /* LCActionSheet.m in Sources */,
 				46DE6E391C7FF76C00B10310 /* LocationSearchDisplayController.m in Sources */,
 				46DE6E2C1C7FF53600B10310 /* MapCheckViewController.m in Sources */,
 				46DE6E331C7FF59E00B10310 /* UIView+SDAutoLayout.m in Sources */,
@@ -448,6 +466,7 @@
 				46DE6DFA1C7FF3AB00B10310 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
